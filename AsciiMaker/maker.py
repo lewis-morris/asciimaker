@@ -1,9 +1,10 @@
 import numpy as np
 import cv2
 from IPython.display import HTML
+
 class AsciiCreator:
 
-    def __init__(self, w_size=800, colour=False, background=True, invert=True, output="html", block_size=10,
+    def __init__(self, w_size=800, colour=True, background=True, invert=False, output="html", block_size=10,
                  characters=".,:-=+>coO08&%@#", font="Cousine", font_multiplier=1):
         """
         Used to create ASCII art images

@@ -20,3 +20,5 @@ git clone "https://github.com/lewis-morris/asciimaker" && cd asciimaker && pytho
 ```python
 maker = 
 ```
+
+<iframe src="examples/dog.html" width="100%" height="100%" style="border:none;"></iframe>

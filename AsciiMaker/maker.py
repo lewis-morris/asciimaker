@@ -1,3 +1,6 @@
+import numpy as np
+import cv2
+
 class AsciiCreator:
 
     def __init__(self, w_size=800, colour=True, background=True, invert=False, output="html", block_size=10,
